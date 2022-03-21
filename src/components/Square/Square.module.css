@@ -1,0 +1,24 @@
+.square {
+  color: cornsilk;
+  font-size: clamp(30px, 5vw, 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid lightcoral;
+  cursor: default;
+}
+
+.clickableSquare:hover {
+  cursor: pointer;
+  background-color: hsla(0, 79%, 72%, 0.3);
+  transition: all 0.1s;
+}
+
+.clickableSquare {
+  transition: all 0.1s;
+}
+
+.text {
+  position: absolute;
+  cursor: default;
+}

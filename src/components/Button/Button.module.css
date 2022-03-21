@@ -1,0 +1,28 @@
+.button {
+  animation: fade-in 0.1s;
+  background: #282c34;
+  color: cornsilk;
+  border: 5px solid lightcoral;
+  border-radius: 6px;
+  font-size: 42px;
+  padding: 15px 30px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 50px;
+  cursor: pointer;
+  transition: border 0.12s;
+}
+
+.button:hover {
+  border: 5px solid cornsilk;
+  transition: border 0.12s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
